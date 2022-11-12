@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    width: 100%;
+    height: 85px;
+    background: black;
+    color: white;
+}
+
+#imgLogo{
+    width: 3em;
+    margin: 20px 10px 10px 50px ;
+
+}
+
+#titulo{
+    font-size: 2em;
+    position: relative;
+    bottom: 20px;
+    margin-left: 20px;
+}
+
+#areaLoguin{
+    border: 1px solid gray;
+    margin: 0 auto;
+    position: relative;
+    top: 5em;
+    width: 30%;
+    height: 250px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    border-radius: 5px;
+}
+
+h2{
+    background: rgb(219, 219, 219);
+    font-weight: 100;
+    padding: 10px;
+
+}
+
+#formulario{
+    width: 80%;
+    margin: 0 auto;
+}
+.dados{
+    width: 100%;
+    height: 40px;
+    margin: 8px auto;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+
+.botao{
+    width: 70%;
+    height: 40px;
+    background: #16A2B9;
+    border-radius: 5px;
+    color: white;
+    border: none ;
+    position: absolute;
+    bottom: 2em;
+    left: 5em;
+    cursor: pointer;
+}
+
+#teste{
+   height: 20px;
+   color: red;
+   text-align: center;
+}
+
+/* pagina home */
+#menu{
+    width: 80%;
+    height: 180px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    margin-top: 3em;
+    border-radius: 5px;
+}
+
+.opcoes{
+    
+    float: left;
+    width: 49.7%;
+    height: 74%;
+}
+
+.botaoOpcoes{
+    height: 100%;
+    width: 30%;
+    position: relative;
+    left: 20em;
+    border: 1px solid red;
+    background: url('formulario_abrir_chamado.png');
+}
+.imagemHome{
+    width: 100px;
+    position: relative;
+    left: 14em;
+}
+
+/* pagina chamado */
+
+#chamado{
+    width: 80%;
+    height: 430px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.dadosChamado{
+    width: 95%;
+    height: 35px;
+    margin: 1em;
+    
+    
+}
+
+#comentario{
+    width: 95%;
+    height: 8em;
+    margin: 1em;
+}
+
+.botaoChamado{
+    width: 40%;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    background: #16A2B9;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    left: 6em;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    line-height: 2em;
+    margin-left: 30px;
+}
+
+#logoff{
+    float: right;
+    margin: 30px 50px 10px 10px;
+}
+
+#logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* pagina consulta chamado */
+#consultaChamado{
+    width: 90%;
+    border: 1px solid gray;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.chamado{
+    width: 95%;
+    margin: 15px auto;
+    padding: 10px;
+    border: 1px solid gray;
+    background: rgb(238, 238, 238);
+}
+
+#btnConsulta{
+    margin: 20px 20px 20px 250px;
+}
